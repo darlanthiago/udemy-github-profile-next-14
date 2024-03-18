@@ -1,0 +1,29 @@
+.main {
+  display: flex;
+  gap: 2rem;
+  padding: 0 3rem;
+  justify-content: center;
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1rem;
+
+    img {
+      margin-top: calc(2rem - 1rem);
+    }
+
+    > a {
+      align-self: flex-end;
+      width: 14rem;
+    }
+  }
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 1rem;
+}
